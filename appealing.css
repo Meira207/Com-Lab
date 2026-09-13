@@ -1,0 +1,113 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color: red;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+
+p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+ul {
+    background-color: black;
+    border-left: 4px solid red;
+    width: 60%;
+    margin: 25px auto;
+    padding: 20px 40px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+li {
+    margin: 10px 0;
+    color: white;
+}
+
+li::marker {
+    color: red;
+}
+
+b {
+    color: white;
+}
+
+strong {
+    color: red;
+}
+
+video {
+    width: 720px;
+    max-width: 90%;
+    margin-top: 25px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.final-video {
+    border: 3px solid red;
+}
+
+
+figcaption {
+    margin: 10px 0 30px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.movie-title {
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    padding: 15px;
+    margin: 40px auto 20px;
+    width: 70%;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: black;
+    border-top: 1px solid black;
+    margin-top: 50px;
+    padding: 20px;
+    color: grey;
+}
